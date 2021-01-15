@@ -7,3 +7,15 @@ The problem: The 8-puzzle is a sliding puzzle that is played on a 3-by-3 grid wi
 <p align='center'>
 <img width="75%" height="75%" src="https://www.cs.princeton.edu/courses/archive/spring18/cos226/assignments/8puzzle/4moves.png" />
 </p>
+
+## Usage
+```
+python3 driver.py <method> <board>
+
+Methods:
+bfs (Breadth-First Search)
+dfs (Depth-First Search)
+ast (A-Star Search)
+
+For example, $ python3 driver.py bfs 0,8,7,6,5,4,3,2,1
+```
